@@ -1,0 +1,393 @@
+
+*
+{
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Signika+Negative:wght@400;600&display=swap');
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#colors{
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+body{
+    background-color: #dbdbdb;
+}
+
+body #pagina{
+    width: 100vw;
+    margin: 0% auto;
+    background-color: rgb(240, 240, 240);
+}
+
+/* MENU */
+
+#menu2{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: #ba2d2d;
+    color: white;
+}
+
+#menu3{
+    display: flex;
+    width: 50%;
+    margin: 0 20px;
+
+}
+
+#menu3 ul{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;
+
+}
+
+#menu3 ul li a{
+
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.1s;
+    padding: 10px;
+    
+
+}
+
+#menu3 ul li a:hover{
+
+    display: block;
+    text-decoration: none;
+    color: #ba2d2d;
+    transition: 0.1s;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+    
+}
+
+#menu4 {
+   
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin: 0 50px;
+    
+}
+
+#botao{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    justify-content: end;
+    display: flex;
+    
+    
+}
+
+#botao button{
+    width: 50%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-color: #ffffff;
+    transition: 0.1s;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+#botao button:active{
+    transition: 0.1s;
+    background-color: white ;
+    color: #ba2d2d;
+    cursor: pointer;
+}
+
+
+/* BANNER INICIAL */
+
+#mainbanner{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+
+#maininfo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#mainconta{
+    display: block;
+    width: 40%;
+    height: 250px;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px 0px;
+    background-color: #f2871b67 ;
+
+}
+
+#maincard{
+    display: flex;
+    height: 100%;
+    padding: 0px 40px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+    gap: 25px;
+    margin: 0px auto;
+}
+
+#maincard button
+{
+    width: 35%;
+    height: 50px;
+    
+
+    background-color: #000000;
+    border-radius: 4px;
+    border-style: solid;
+    color: white;
+    padding: 10px 0px;
+    cursor: pointer;
+    border: 2px solid #f2861b;
+}
+
+/* CARDS FOMRA DE PAGAMENTO PREFERIDA */
+
+#card
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+#cards
+{
+    display: flex;
+    margin: 30px;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#cardss
+{
+    width: 100%;
+    height: 300px;
+    margin: 30px;
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+
+}
+
+.card1
+{
+    display: flex;
+    width: 30%;
+    height: 30%px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card1 img
+{
+    width: 100%;
+    height: 100px;
+}
+
+.card1 h3
+{
+    font-size: 17px;
+
+}
+
+/* SECTION CONTRATE NOSSOS SERVIÇOS */
+#--section-SejaCliente-SECTION
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#sectionbanner
+{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-color: #302727;
+}
+
+#--textBannerContract-DIV
+{
+    height: 100%;
+    width: 50%;
+    color: white;
+    margin: 70px  ;
+    margin-top: 150px;
+    
+
+}
+
+#--textBannerContract-DIV h1
+{
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+#imgbannerdiv
+{
+    width: 70%;
+}
+#imgbannerdiv img
+{
+    width: 90%;
+    height: 350px;
+    
+}
+#sectionimgdiv
+{
+    display: flex;
+    justify-content: center;
+}
+#sectiontextdiv
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+ 
+.imgcards
+{
+
+    display: flex;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#imgcards1
+{
+    background-image: url(imagens/cartaoUm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+#imgcards2
+{
+    background-image: url(imagens/cartaoDois.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+#imgcards3
+{
+    background-image: url(imagens/cartaoTres.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+#tabeladiv
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabelacardsdiv
+{
+    display: flex;
+    width: 60%;
+    height: 300px;
+    padding: 30px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+#tabelacardsdiv h1
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+th, td
+{
+    height: 60px;
+    border: 2px solid black;
+}
+
+th{
+    background-color: #ba2d2d;
+    color: #fff;
+    border-color:#ba2d2d ;
+    width: 100px;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+}
+
+
+#footerdiv
+{
+    display: flex;
+    background-color: #ba2d2d;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
